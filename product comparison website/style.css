@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 20px 20px; 
+    margin-top: 30px;
+}
+
+
+.amazon, .flipkart {
+    width: 45%;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+.amazon h2, .flipkart h2 {
+    padding: 20px;
+    font-size: 2rem;
+    font-style:italic;
+    color: tomato;
+    font-weight: bold
+}
+
+.product {
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 1.9rem;
+    padding: 10px 20px;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.product-rating{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+img {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#searchInput {
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 400px;
+}
+
+#searchButton {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+}
+.logo{
+    color: tomato;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-right: 90px;
+}
